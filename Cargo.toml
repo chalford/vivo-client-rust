@@ -1,0 +1,9 @@
+[package]
+
+name = "vivo_client"
+version = "0.0.1"
+
+[dependencies]
+iron = "*"
+urlencoded = "*"
+amqp = "*"
