@@ -2,7 +2,7 @@
 name = "vivo_client"
 version = "0.0.1"
 dependencies = [
- "amqp 0.0.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "amqp 0.0.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "iron 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "urlencoded 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -26,15 +26,21 @@ dependencies = [
 
 [[package]]
 name = "amqp"
-version = "0.0.8"
+version = "0.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
+ "bit-vec 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "byteorder 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
  "enum_primitive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "env_logger 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "url 0.2.37 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "bit-vec"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "bitflags"
